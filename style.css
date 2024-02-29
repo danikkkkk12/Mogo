@@ -1,4 +1,5 @@
 :root {
+    --btn-text-color: #fff;
     --accent-color: #F38181;
     --main-color: #95E1D3;
     --title-color: #333333;
@@ -15,7 +16,6 @@
     width: 1200px;
     margin: 0 auto;
     padding: 15px;
-    /* outline: 2px solid black; */
 }
 
 .active {
@@ -46,7 +46,7 @@ li {
 .logo_container {
     display: flex;
 }
-
+/* --------------------------------------------header---------------------------- */
 .nav-link {
     color: var(--accent-color);
     font-size: 14px;
@@ -68,9 +68,9 @@ li {
     top: 30px;
     left: 0;
 }
-
+/* ----------------------------------------------------main------------------------------------------ */
 .paragraph_banner,
-.team_title{
+.team_title {
     font-family: Kaushan Script;
     color: var(--title-color);
     font-size: 24px;
@@ -78,7 +78,7 @@ li {
 
 }
 
-.team_title{
+.team_title {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 17px;
@@ -90,11 +90,12 @@ li {
     font-family: var(--hader-menu-fonts);
 }
 
-.titles {
-    text-align: center;
+.title {
+    color: var(--title-color);
     font-family: var(--logo-header-fonts);
     text-transform: uppercase;
     font-size: 30px;
+    text-align: center;
 }
 
 .title::after {
@@ -116,6 +117,7 @@ li {
 .team-list {
     display: flex;
     gap: 30px;
+    padding-left: 0;
 }
 
 .team-name {
@@ -136,6 +138,7 @@ li {
 .work-item {
     display: flex;
     width: 332px;
+    margin-right: 60px;
     /* outline: 2px solid pink; */
 }
 
@@ -147,10 +150,11 @@ li {
     /* outline: 2px solid pink; */
 }
 
-.work-image {
-    width: 38px;
-    height: 37px;
+.work_image {
+    width: 100px;
+    height: 50px;
     margin-right: 20px;
+    fill: #95E1D3;
 }
 
 .work-sabmit {
@@ -162,13 +166,71 @@ li {
     ;
 
 }
-
+.team-wrap{
+    text-align: center;
+}
 .work-text {
     color: var(--text-color);
     font-family: var(--paragraph-font);
 }
-
+/* ----------------------------------------------------------footer----------------------------------------- */
 .footer-link {
     color: var(--accent-color);
 
+}
+
+.footer_wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_line {
+    border-top: 1px solid var(--text-color);
+}
+
+.footer-text {
+    color: var(--title-color);
+    font-family: var(--logo-header-fonts);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+
+}
+
+::placeholder {
+    color: var(--text-color);
+    font-family: var(--paragraph-font);
+    font-style: italic ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-input {
+    width: 150px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 2px solid var(--text-color);
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+.footer-btn {
+    color: var(--btn-text-color);
+    font-family: var(--logo-header-fonts);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    border: none;
+    background-color: var(--subscribe-btn-color);
+    width: 150px;
+    height: 39px;
+}
+.footer-btn:hover{
+    background-color: rgb(112, 186, 172);
+    cursor: pointer;
 }
