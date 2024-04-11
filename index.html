@@ -31,28 +31,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="header">
     <div class="container logo_container">
-      <a href="#" class="header-logo">MoGo</a>
+      <a href="#" class="header-logo animate__bounceInDown animate__animated animate__delay-0.8s">MoGo</a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="nav-link active" href="#">ABOUT</a>
+            <a class="nav-link active tracking-in-contract-bck-top" href="#">ABOUT</a>
           </li>
           <li class="navigation-item">
-            <a class="nav_link" href="#">SERVICE</a>
+            <a class="nav_link tracking-in-contract-bck-top" href="#">SERVICE</a>
           </li>
           <li class="navigation-item">
-            <a class="nav_link" href="#">WORK</a>
+            <a class="nav_link tracking-in-contract-bck-top" href="#">WORK</a>
           </li>
           <li class="navigation-item">
-            <a class="nav_link" href="#">BLOG</a>
+            <a class="nav_link tracking-in-contract-bck-top" href="#">BLOG</a>
           </li>
           <li class="navigation-item">
-            <a class="nav_link" href="#">CONTACT</a>
+            <a class="nav_link tracking-in-contract-bck-top" href="#">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -162,10 +164,10 @@
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-        <ul class="team-list">
+        <ul class="team-list " data-aos="zoom-in-up">
           <li class="team-item">
             <img src="images/first-man.jpg" alt="boy" class="team-image" />
-            <div class="team-wrap">
+            <div class="team-wrap" >
               <h3 class="team-name">Matthew Dix</h3>
               <p class="team-position">Graphic Design</p>
             </div>
@@ -201,6 +203,11 @@
 
   </footer>
   </div>
+  <!-- script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
