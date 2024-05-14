@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --btn-text-color: #fff;
     --accent-color: #F38181;
     --main-color: #95E1D3;
@@ -10,16 +10,16 @@
     --paragraph-font: "Roboto", sans-serif;
     --paragraph-main-name: 'Roboto', sans-serif;
     --name-team: 'Montserrat', sans-serif;
-} */
+}
 
-/* .container {
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 15px;
-} */
+}
 
 
-/* .body {
+.body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,15 +29,15 @@ a {
 
 li {
     list-style: none;
-} */
+}
 
-/* .logo_container {
+.logo_container {
     display: flex;
-} */
+}
 
 
 /* --------------------------------------------header---------------------------- */
-/* .active {
+.active {
     color: var(--accent-color)
 }
 
@@ -70,10 +70,10 @@ li {
     position: absolute;
     top: 30px;
     left: 0;
-} */
+}
 
 /* ----------------------------------------------------main------------------------------------------ */
-/* .paragraph_banner,
+.paragraph_banner,
 .team_title {
     font-family: Kaushan Script;
     color: var(--title-color);
@@ -93,23 +93,23 @@ li {
     text-transform: uppercase;
     font-size: 30px;
     text-align: center;
-} */
+}
 
-/* .navigation-list {
+.navigation-list {
     display: flex;
     gap: 55px;
     font-family: var(--hader-menu-fonts);
-} */
+}
 
 
-/* .title::after {
+.title::after {
     content: "";
     width: 60px;
     height: 4px;
     background-color: var(--accent-color);
     display: block;
     margin: 40px auto 65px;
-} */
+}
 
 .team-text {
     text-align: center;
